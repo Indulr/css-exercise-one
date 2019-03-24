@@ -1,13 +1,16 @@
 body
-  font-size: 14px;
+  {font-size: 14px;
 }
-
+/* added curly brackets */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
+
+/* closed curly brackets and incuded a dash between background and color*/
 
 
 section {
@@ -16,15 +19,16 @@ section {
 }
 
 h1 {
-  font-family sans-serif;
+  font-family: sans-serif;
   font-size: 2em;
 }
+/* added colon for font family */
 
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
-
+/* added colon  and semi colon for text-align */
 h3 {
   font-size: 1.3em;
 }
@@ -32,5 +36,11 @@ h3 {
 .element {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: 10px 0;
   width: 100%;
+}
+
+.add-color{
+  background-color: purple;
+}
+/* closed curly bracket for element class added colon for margin
